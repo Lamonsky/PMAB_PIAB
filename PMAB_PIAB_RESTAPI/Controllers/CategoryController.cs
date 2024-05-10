@@ -21,6 +21,7 @@ namespace PMAB_PIAB_RESTAPI.Controllers
                     Id = item.Id,
                     Name = item.Name,
                     IsActive = item.IsActive.ToString(),
+                    ImageURL = item.ImageUrl
 
                 }).ToListAsync();
             return Json(list);
@@ -34,7 +35,8 @@ namespace PMAB_PIAB_RESTAPI.Controllers
             databaseContext.Categories.Add(new()
             {
                 Name = categoryCreateEditVM.Name,
-                IsActive = categoryCreateEditVM.IsActive
+                IsActive = categoryCreateEditVM.IsActive,
+                ImageUrl = categoryCreateEditVM.ImageURL,
             });
 
             await databaseContext.SaveChangesAsync();
@@ -54,6 +56,7 @@ namespace PMAB_PIAB_RESTAPI.Controllers
             }
             category.Name = categoryCreateEditVM.Name;
             category.IsActive = categoryCreateEditVM.IsActive;
+            category.ImageUrl = categoryCreateEditVM.ImageURL;
 
             await databaseContext.SaveChangesAsync();
             return Ok();

@@ -14,6 +14,8 @@ namespace Data.SelectVMs
 
         [JsonPropertyName("name")]
         public string? Name { get; set; }
+        [JsonPropertyName("imageURL")]
+        public string? ImageURL { get; set; }
 
         [JsonPropertyName("isActive")]
         public string? IsActive { get; set; }

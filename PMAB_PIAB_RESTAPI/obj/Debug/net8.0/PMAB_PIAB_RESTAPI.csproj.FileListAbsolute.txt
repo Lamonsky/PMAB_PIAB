@@ -260,3 +260,4 @@ C:\Users\damia\Documents\Studia\PMAB_PIAB\PMAB_PIAB_RESTAPI\bin\Debug\net8.0\Dat
 C:\Users\damia\Documents\Studia\PMAB_PIAB\PMAB_PIAB_RESTAPI\bin\Debug\net8.0\Data.pdb
 C:\Users\damia\Documents\Studia\PMAB_PIAB\PMAB_PIAB_RESTAPI\obj\Debug\net8.0\PMAB_PIAB_RESTAPI.RazorAssemblyInfo.cache
 C:\Users\damia\Documents\Studia\PMAB_PIAB\PMAB_PIAB_RESTAPI\obj\Debug\net8.0\PMAB_PIAB_RESTAPI.RazorAssemblyInfo.cs
+C:\Users\damia\Documents\Studia\PMAB_PIAB\PMAB_PIAB_RESTAPI\obj\Debug\net8.0\PMAB_PIAB_RESTAPI.sourcelink.json

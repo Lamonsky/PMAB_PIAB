@@ -29,6 +29,26 @@ namespace PMAB_PIAB_RESTAPI.Controllers
                 }).ToListAsync();
             return Json(list);
         }
+        [Route(URLs.ITEM_CATEGORY_ID)]
+        [HttpGet]
+        public async Task<IActionResult> Index(int id)
+        {
+            DatabaseContext database = new();
+            List<ItemVM> list = await database.Items
+                .Where(item => item.CategoryId == id)
+                .Select(item => new ItemVM
+                {
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    Category = item.Category.Name,
+                    Price = item.Price,
+                    ImageUrl = item.ImageUrl,
+                    IsActive = item.IsActive
+
+                }).ToListAsync();
+            return Json(list);
+        }
         [Route(URLs.ITEM)]
         [HttpPost]
 

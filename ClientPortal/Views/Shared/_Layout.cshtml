@@ -23,34 +23,7 @@
     
 
     <div class="container-fluid text-center mb-3 mt-3">
-        <div class="row">
-            <div class="col">
-                <div class="container navbar-collapse collapse d-sm-inline-flex justify-content-between mb-3">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="News" asp-action="Index">Aktualności</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Pages" asp-action="Index">Strona</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Kategorie</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Items" asp-action="Index">Towary</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUS">O Firmie</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container">
-                <div class="col">
-                    @RenderBody()
-                </div>
-            </div>
-        </div>
+        @RenderBody()
     </div>
 
     <footer class="border-top footer text-muted">

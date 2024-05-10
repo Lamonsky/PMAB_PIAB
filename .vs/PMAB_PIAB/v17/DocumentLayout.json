@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|c:\\users\\damia\\documents\\studia\\pmab_piab\\clientportal\\views\\categories\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|solutionrelative:clientportal\\views\\categories\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|c:\\users\\damia\\documents\\studia\\pmab_piab\\clientportal\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|solutionrelative:clientportal\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|c:\\users\\damia\\documents\\studia\\pmab_piab\\clientportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5598F2DB-A351-4603-9843-4E16609F9095}|ClientPortal\\ClientPortal.csproj|solutionrelative:clientportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ClientPortal\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ClientPortal\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:59:10.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClientPortal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ClientPortal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T18:56:49.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Items.cshtml",
+              "DocumentMoniker": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Views\\Categories\\Items.cshtml",
+              "RelativeDocumentMoniker": "ClientPortal\\Views\\Categories\\Items.cshtml",
+              "ToolTip": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\Views\\Categories\\Items.cshtml",
+              "RelativeToolTip": "ClientPortal\\Views\\Categories\\Items.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T18:55:37.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

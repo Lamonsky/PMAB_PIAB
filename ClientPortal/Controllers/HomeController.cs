@@ -1,4 +1,7 @@
+using ClientPortal.Helpers;
 using ClientPortal.Models;
+using Data.SelectVMs;
+using Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -13,14 +16,10 @@ namespace ClientPortal.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
+            List<CategoryVM> categories = await RequestHelper.SendRequestAsync<object, List<CategoryVM>>(URLs.CATEGORY, HttpMethod.Get, null, null);
+            return View(categories);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

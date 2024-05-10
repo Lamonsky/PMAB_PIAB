@@ -18,6 +18,9 @@ public partial class Category
 
     public bool? IsActive { get; set; }
 
+    [Column("ImageURL")]
+    public string? ImageUrl { get; set; }
+
     [InverseProperty("Category")]
     public virtual ICollection<Item> Items { get; set; } = new List<Item>();
 }

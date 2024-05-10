@@ -339,3 +339,4 @@ C:\Users\damia\Documents\Studia\PMAB_PIAB\MobileApp\obj\Debug\net8.0-ios\iossimu
 C:\Users\damia\Documents\Studia\PMAB_PIAB\MobileApp\obj\Debug\net8.0-ios\iossimulator-x64\MobileApp.pdb
 C:\Users\damia\Documents\Studia\PMAB_PIAB\MobileApp\obj\Debug\net8.0-ios\iossimulator-x64\MobileApp.genruntimeconfig.cache
 C:\Users\damia\Documents\Studia\PMAB_PIAB\MobileApp\obj\Debug\net8.0-ios\iossimulator-x64\ref\MobileApp.dll
+C:\Users\damia\Documents\Studia\PMAB_PIAB\MobileApp\obj\Debug\net8.0-ios\iossimulator-x64\MobileApp.sourcelink.json

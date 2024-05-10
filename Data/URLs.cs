@@ -14,6 +14,7 @@ namespace Data
         public const string CATEGORY_ID = "/category/{id}";
         public const string ITEM = "/item";
         public const string ITEM_ID = "/item/{id}";
+        public const string ITEM_CATEGORY_ID = "/item_category_{id}";
         public const string ORDER = "/order";
         public const string ORDER_ID = "/order/{id}";
         public const string ORDERSTATUS = "/orderstatus";

@@ -268,3 +268,4 @@ C:\Users\damia\Documents\Studia\PMAB_PIAB\ClientPortal\bin\Debug\net8.0\runtimes
 C:\Users\damia\Documents\Studia\PMAB_PIAB\ClientPortal\bin\Debug\net8.0\PMAB_PIAB_RESTAPI.dll
 C:\Users\damia\Documents\Studia\PMAB_PIAB\ClientPortal\bin\Debug\net8.0\PMAB_PIAB_RESTAPI.pdb
 C:\Users\damia\Documents\Studia\PMAB_PIAB\ClientPortal\obj\Debug\net8.0\ClientPortal.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\damia\Documents\Studia\PMAB_PIAB\ClientPortal\obj\Debug\net8.0\ClientPortal.sourcelink.json
