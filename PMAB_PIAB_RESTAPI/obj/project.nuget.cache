@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PTOrlgk7jmS98sGW1rnvUn9YFKHigs/gDisYTh2P+Uwmwto7EoQCdK+/FgdiBuDwS8y+74vRu+d7O3p233ZjbQ==",
+  "dgSpecHash": "td8u9pLuVxc6Y0TSOylW+LQUcNaVb7zLv6iGOM6AIz/3/64XimVnYvpVEJt7yqEP08Cuecn3iZmThz5II3uyNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\PMAB_PIAB_RESTAPI\\PMAB_PIAB_RESTAPI.csproj",
+  "projectFilePath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\PMAB_PIAB_RESTAPI\\PMAB_PIAB_RESTAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

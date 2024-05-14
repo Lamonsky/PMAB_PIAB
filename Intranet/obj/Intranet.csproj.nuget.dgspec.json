@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Intranet\\Intranet.csproj": {}
+    "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Intranet\\Intranet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\Data.csproj": {
+    "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Intranet\\Intranet.csproj": {
+    "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Intranet\\Intranet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Intranet\\Intranet.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Intranet\\Intranet.csproj",
         "projectName": "Intranet",
-        "projectPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Intranet\\Intranet.csproj",
+        "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Intranet\\Intranet.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Intranet\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Intranet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\Data\\Data.csproj"
+              "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
               }
             }
           }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using MobileApp.ViewModels;
 
 namespace MobileApp
 {
@@ -12,15 +13,14 @@ namespace MobileApp
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-            builder.Services.AddMauiBlazorWebView();
-
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-
+            builder.Services.AddSingleton<MainPageViewModel>();
+            builder.Services.AddSingleton<MainPage>();
             return builder.Build();
         }
     }

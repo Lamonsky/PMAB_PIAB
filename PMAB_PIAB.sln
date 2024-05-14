@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMAB_PIAB_RESTAPI", "PMAB_PIAB_RESTAPI\PMAB_PIAB_RESTAPI.csproj", "{F826B768-C8FB-4EC9-9A69-774CDCF88C33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intranet", "Intranet\Intranet.csproj", "{C09D5B81-8182-4AA5-BF85-BE1DCE7B0441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intranet", "Intranet\Intranet.csproj", "{C09D5B81-8182-4AA5-BF85-BE1DCE7B0441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientPortal", "ClientPortal\ClientPortal.csproj", "{5598F2DB-A351-4603-9843-4E16609F9095}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientPortal", "ClientPortal\ClientPortal.csproj", "{5598F2DB-A351-4603-9843-4E16609F9095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApp", "MobileApp\MobileApp.csproj", "{EAE6995B-D1EF-4545-A919-14FB7C5CC630}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileApp", "MobileApp\MobileApp.csproj", "{AE947F47-E82E-41A9-897B-E45EE54A619D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +35,12 @@ Global
 		{5598F2DB-A351-4603-9843-4E16609F9095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5598F2DB-A351-4603-9843-4E16609F9095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5598F2DB-A351-4603-9843-4E16609F9095}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAE6995B-D1EF-4545-A919-14FB7C5CC630}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE947F47-E82E-41A9-897B-E45EE54A619D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

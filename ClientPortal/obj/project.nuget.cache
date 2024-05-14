@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1DZvyCD+vnByNquxQyJe7r+B51ViBqF7jro81P48nQvUaFMhTMW7e8pGvy2t5ObMPtykxlLOo4b1CLpnML61jw==",
+  "dgSpecHash": "rdkq39lZy92YGgunMPVt6dBQcivOrTQZS6/6IL7FQG2iHzBuWS9N4/FubvhE3kgh4aCttwpg3JoSI+zYaQDYlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damia\\Documents\\Studia\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
+  "projectFilePath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
