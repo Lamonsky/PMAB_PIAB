@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.OrdersView"
+             Title="OrdersView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Text="Wróć" Command="{Binding GoBackCommand}" MaximumWidthRequest="200" HorizontalOptions="Start"/>
+        <Button Grid.Row="0" Text="Nowe zamówienie" Command="{Binding NewOrderCommand}" MaximumWidthRequest="200" HorizontalOptions="End"/>
+
+        <ListView Grid.Row="1" ItemsSource="{Binding List}" SelectedItem="{Binding ChosenOrder}" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="4*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Row="0" Text="Użytkownik:" HorizontalOptions="Start"/>
+                                    <Label Grid.Row="0" Text="{Binding User}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="1" Text="Data Zamówienia: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="1" Text="{Binding CreateDate}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="2" Text="Status zamówienia: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="2" Text="{Binding OrderStatus}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="3" Text="Imię i Nazwisko:" HorizontalOptions="Start"/>
+                                    <Label Grid.Row="3" Text="{Binding Name}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="4" Text="E-Mail: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="4" Text="{Binding Email}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="5" Text="Numer telefonu: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="5" Text="{Binding MobileNumber}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="6" Text="Adres:" HorizontalOptions="Start"/>
+                                    <Label Grid.Row="6" Text="{Binding Address}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="7" Text="Sposób Płatności: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="7" Text="{Binding PaymentMethod}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="8" Text="Opłacone: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="8" Text="{Binding IsPaid}" HorizontalOptions="End"/>
+                                </Grid>
+                                <Button Grid.Column="1" Text="Opłać" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.PaidCommand}" CommandParameter="{Binding .}" BackgroundColor="Red"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

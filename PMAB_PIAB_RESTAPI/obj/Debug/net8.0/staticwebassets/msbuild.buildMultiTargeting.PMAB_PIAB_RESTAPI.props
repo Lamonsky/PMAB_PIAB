@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PMAB_PIAB_RESTAPI.props" />
+</Project>

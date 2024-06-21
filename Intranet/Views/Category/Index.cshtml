@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Data.SelectVMs.CategoryVM>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Kategorie</h1>
+
+<p>
+    <a class="card-body" asp-action="Create"><button type="button" class="btn btn-primary">Dodaj nowe</button></a>
+</p>
+
+    <div class="row">
+        <table>
+            <tr>
+                @foreach (var item in Model)
+                {
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td><img width="100" height="100" src="@item.ImageURL" alt="@item.Name" /></td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>
+                    <a class="card-body" asp-area="" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Edytuj</button></a>
+                    <a class="card-body" asp-area="" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Usuń</button></a>
+                    </td>
+        
+                }
+            </tr>
+        </table>
+    </div>

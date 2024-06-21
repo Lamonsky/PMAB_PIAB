@@ -1,0 +1,77 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/CartView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.CartView.xaml
+build_metadata.AdditionalFiles.TargetPath = CartView.xaml
+build_metadata.AdditionalFiles.RelativePath = CartView.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/ItemsView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.ItemsView.xaml
+build_metadata.AdditionalFiles.TargetPath = ItemsView.xaml
+build_metadata.AdditionalFiles.RelativePath = ItemsView.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/LoginView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.LoginView.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginView.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginView.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/NewOrderView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.NewOrderView.xaml
+build_metadata.AdditionalFiles.TargetPath = NewOrderView.xaml
+build_metadata.AdditionalFiles.RelativePath = NewOrderView.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/OrdersView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.OrdersView.xaml
+build_metadata.AdditionalFiles.TargetPath = OrdersView.xaml
+build_metadata.AdditionalFiles.RelativePath = OrdersView.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

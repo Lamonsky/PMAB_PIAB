@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.CartView"
+             Title="CartView">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Text="Wróć" Command="{Binding GoBackCommand}" MaximumWidthRequest="200" HorizontalOptions="Start"/>
+
+        <ListView Grid.Row="1" ItemsSource="{Binding List}" SelectedItem="{Binding ChosenCart}" SelectionMode="Single">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="4*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Label Grid.Row="0" Text="Przedmiot:" HorizontalOptions="Start"/>
+                                    <Label Grid.Row="0" Text="{Binding Items}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="1" Text="Ilość: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="1" Text="{Binding Quantity}" HorizontalOptions="End"/>
+                                    <Label Grid.Row="2" Text="Cena: " HorizontalOptions="Start"/>
+                                    <Label Grid.Row="2" Text="{Binding UnitPrice}" HorizontalOptions="End"/>
+                                </Grid>
+                                <Button Grid.Column="1" Text="Usuń" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DeleteCommand}" CommandParameter="{Binding .}" BackgroundColor="Red"/>
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>
