@@ -4,8 +4,6 @@ using Data;
 using Data.CreateEditVMs;
 using Data.SelectVMs;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using System.Linq.Expressions;
 
 namespace ClientPortal.Controllers
 {

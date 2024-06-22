@@ -15,12 +15,12 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="UserId" class="control-label">Użytkownik</label>
-                    <input asp-for="UserId" class="form-control" value="@email" readonly/>
+                    <input asp-for="UserId" class="form-control text-center" value="@email" readonly/>
                     <span asp-validation-for="UserId" class="text-danger"></span>
                 </div>
                 <div class="form-group col">
                     <label asp-for="CreateDate" class="control-label">Data utworzenia</label>
-                    <input type="date" asp-for="CreateDate" class="form-control"/>
+                    <input type="date" asp-for="CreateDate" class="form-control text-center"/>
                     <span asp-validation-for="CreateDate" class="text-danger"></span>
                 </div>
                 <div class="form-group">
@@ -29,39 +29,39 @@
                     2.W toku
                     3.Wysłane
                     4.Zakończone
-                    <input asp-for="OrderStatusId" class="form-control" value="1"/>
+                    <input asp-for="OrderStatusId" class="form-control text-center" value="1"/>
                     <span asp-validation-for="OrderStatusId" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="IsActive" class="control-label">Aktywne</label>
-                    <input asp-for="IsActive" class="form-control" value="True" readonly />
+                    <input asp-for="IsActive" class="form-control text-center" value="True" readonly />
                     <span asp-validation-for="IsActive" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Name" class="control-label">Nazwa</label>
-                    <input asp-for="Name" class="form-control" />
+                    <input asp-for="Name" class="form-control text-center" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Email" class="control-label">E-Mail</label>
-                    <input asp-for="Email" class="form-control" value="@email" readonly/>
+                    <input asp-for="Email" class="form-control text-center" value="@email" readonly/>
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="MobileNumber" class="control-label">Numer telefonu</label>
-                    <input asp-for="MobileNumber" class="form-control" />
+                    <input asp-for="MobileNumber" class="form-control text-center" />
                     <span asp-validation-for="MobileNumber" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Address" class="control-label">Adres</label>
-                    <input asp-for="Address" class="form-control" />
+                    <input asp-for="Address" class="form-control text-center" />
                     <span asp-validation-for="Address" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="PaymentMethodId" class="control-label">Sposób płatności</label>
                     1.Gotówka
                     2.Przelew
-                    <input asp-for="PaymentMethodId" class="form-control" />
+                    <input asp-for="PaymentMethodId" class="form-control text-center" />
                     <span asp-validation-for="PaymentMethodId" class="text-danger"></span>
                 </div>
                 <div class="form-group">

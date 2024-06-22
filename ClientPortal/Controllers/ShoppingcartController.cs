@@ -1,5 +1,6 @@
 ﻿using ClientPortal.Helpers;
 using Data;
+using Data.CreateEditVMs;
 using Data.SelectVMs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -17,8 +18,10 @@ namespace ClientPortal.Controllers
 
         public async Task<IActionResult> Delete(int itemid)
         {
+            StockCreateEditVM stockvm = await RequestHelper.SendRequestAsync<object, StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", itemid.ToString()), HttpMethod.Get, null, null);
+            stockvm.Quantity += 1;
+            await RequestHelper.SendRequestAsync<StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", stockvm.Id.ToString()), HttpMethod.Put, stockvm, null);
             await RequestHelper.SendRequestAsync(URLs.CARTDETAIL_ID.Replace("{id}", itemid.ToString()), HttpMethod.Delete, null);
-
             return RedirectToAction("Index", "Home");
         }
     }

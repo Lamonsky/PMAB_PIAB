@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Data.SelectVMs.ItemVM>
+
+@{
+    Context.Request.Cookies.TryGetValue("email", out string email);
+    if (Model.Any())
+    {
+        var firstItemCategory = Model.First().Category;
+        ViewData["Title"] = firstItemCategory;
+    }
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Items" asp-route-category="@item.Id">
+                        <img class="card-img-top" src="@item.ImageUrl" alt="@item.Name" />
+                        <div class="card-body p-4">
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </div>
+                        <div class="card-body p-4">
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </div>
+                        <a class="card-body" asp-area="" asp-controller="Categories" asp-action="AddToCart" asp-route-itemid="@item.Id.ToString()" asp-route-email="@email"><button type="button" class="btn btn-primary">Add to cart</button></a>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -6,9 +6,18 @@
         {
             InitializeComponent();
 
-            Routing.RegisterRoute("ItemsView", typeof(ItemsView));
-
             MainPage = new AppShell();
         }
+
+        protected override Window CreateWindow(IActivationState activationState)
+        {
+            Window window = base.CreateWindow(activationState);
+            window.Width = 420;
+            window.Height = 750;
+            // Manipulate Window object
+
+            return window;
+        }
+
     }
 }

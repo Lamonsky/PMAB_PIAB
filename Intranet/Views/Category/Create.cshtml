@@ -13,17 +13,17 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label">Nazwa</label>
-                <input asp-for="Name" class="form-control" />
+                <input asp-for="Name" class="form-control text-center" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ImageURL" class="control-label">Ścieżka do obrazu</label>
-                <input asp-for="ImageURL" class="form-control" />
+                <input asp-for="ImageURL" class="form-control text-center" />
                 <span asp-validation-for="ImageURL" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="IsActive" class="control-label">Aktywny</label>
-                <input asp-for="IsActive" class="form-control" value="True" readonly/>
+                <input asp-for="IsActive" class="form-control text-center" value="True" readonly/>
                 <span asp-validation-for="IsActive" class="text-danger"></span>
             </div>
             <div class="form-group">

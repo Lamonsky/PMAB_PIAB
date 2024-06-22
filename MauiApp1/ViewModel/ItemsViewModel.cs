@@ -102,6 +102,9 @@ namespace MauiApp1.ViewModel
                     Quantity = 1,
                     UnitPrice = ChosenItem.Price
                 };
+                StockCreateEditVM stockvm = await RequestHelper.SendRequestAsync<object, StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", ChosenItem.Id.ToString()), HttpMethod.Get, null, null);
+                stockvm.Quantity -= 1;
+                await RequestHelper.SendRequestAsync<StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", stockvm.Id.ToString()), HttpMethod.Put, stockvm, null);
                 await RequestHelper.SendRequestAsync<CartDetailCreateEditVM>(URLs.CARTDETAIL, HttpMethod.Post, vm, null);
                 GoBack();
             }

@@ -1,0 +1,82 @@
+﻿@model Data.CreateEditVMs.OrderCreateEditVM
+
+@{
+    Context.Request.Cookies.TryGetValue("email", out string email);
+    ViewData["Title"] = "CreateOrder";
+}
+
+<h1>Dodaj nowe zamówienie</h1>
+
+<hr />
+<div class="row">
+    <div class="container px-4 px-lg-5 align-content-center">
+        <div class="col-md">
+            <form method="post" asp-route-id="@ViewBag.Email" asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="UserId" class="control-label">Użytkownik</label>
+                    <input asp-for="UserId" class="form-control" value="@email" readonly/>
+                    <span asp-validation-for="UserId" class="text-danger"></span>
+                </div>
+                <div class="form-group col">
+                    <label asp-for="CreateDate" class="control-label">Data utworzenia</label>
+                    <input type="date" asp-for="CreateDate" class="form-control"/>
+                    <span asp-validation-for="CreateDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OrderStatusId" class="control-label">Status zamówienia</label>
+                    1.Nowe
+                    2.W toku
+                    3.Wysłane
+                    4.Zakończone
+                    <input asp-for="OrderStatusId" class="form-control" value="1"/>
+                    <span asp-validation-for="OrderStatusId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IsActive" class="control-label">Aktywne</label>
+                    <input asp-for="IsActive" class="form-control" value="True" readonly />
+                    <span asp-validation-for="IsActive" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Nazwa</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">E-Mail</label>
+                    <input asp-for="Email" class="form-control" value="@email" readonly/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MobileNumber" class="control-label">Numer telefonu</label>
+                    <input asp-for="MobileNumber" class="form-control" />
+                    <span asp-validation-for="MobileNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Adres</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PaymentMethodId" class="control-label">Sposób płatności</label>
+                    1.Gotówka
+                    2.Przelew
+                    <input asp-for="PaymentMethodId" class="form-control" />
+                    <span asp-validation-for="PaymentMethodId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IsPaid" class="control-label">Zapłacone</label>
+                    <input type="checkbox" name="IsPaid" />
+                    <span asp-validation-for="IsPaid" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Dodaj" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

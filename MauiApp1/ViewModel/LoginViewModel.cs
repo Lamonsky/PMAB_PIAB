@@ -1,5 +1,4 @@
-﻿using ClientPortal.Models;
-using MauiApp1.Helpers;
+﻿using MauiApp1.Helpers;
 using MauiApp1.Models;
 using System.Windows.Input;
 

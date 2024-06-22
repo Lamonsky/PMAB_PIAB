@@ -22,15 +22,3 @@ C:\Users\damia\Documents\GitHub\PMAB_PIAB\Data\obj\Debug\net8.0\Data.dll
 C:\Users\damia\Documents\GitHub\PMAB_PIAB\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\damia\Documents\GitHub\PMAB_PIAB\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\damia\Documents\GitHub\PMAB_PIAB\Data\obj\Debug\net8.0\ref\Data.dll
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\bin\Debug\net8.0\Data.deps.json
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\bin\Debug\net8.0\Data.dll
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\bin\Debug\net8.0\Data.pdb
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.sourcelink.json
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.dll
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\refint\Data.dll
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\Data.pdb
-C:\Users\damia\Source\Repos\Lamonsky\PMAB_PIAB\Data\obj\Debug\net8.0\ref\Data.dll

@@ -1,0 +1,6 @@
+@PMAB_PIAB_RESTAPI_HostAddress = http://localhost:5173
+
+GET {{PMAB_PIAB_RESTAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

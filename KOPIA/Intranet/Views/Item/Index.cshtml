@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Data.SelectVMs.ItemVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Towary</h1>
+
+<p>
+    <a class="card-body" asp-action="Create"><button type="button" class="btn btn-primary">Dodaj nowe</button></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Nazwa
+            </th>
+            <th>
+                Opis
+            </th>
+            <th>
+                Kategoria
+            </th>
+            <th>
+                Cena
+            </th>
+            <th>
+                Adres URL obrazka
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <img height="50" width="50" src="@item.ImageUrl" alt="@item.Name" />
+            </td>
+            <td>
+                    <a class="card-body" asp-area="" asp-controller="Item" asp-action="Edit" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Edytuj</button></a>
+                    <a class="card-body" asp-area="" asp-controller="Item" asp-action="Delete" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Usuń</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

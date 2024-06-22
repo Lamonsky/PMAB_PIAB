@@ -17,7 +17,7 @@
         @foreach (var item in Model)
         {
             <div class="col mb-5">
-                <div class="card h-100">
+                <div class="card">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Items" asp-route-category="@item.Id">
                         <img class="card-img-top" src="@item.ImageUrl" alt="@item.Name" />
                         <div class="card-body p-4">

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-21T18:58:46.277</Modified>
+      <Modified>2024-06-22T14:14:45.279</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-21T18:27:56.137</Modified>
+      <Modified>2024-06-22T14:01:50.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.runtimeconfig.json">
       <PackagePath>MauiApp1.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-20T14:43:59.540</Modified>
+      <Modified>2024-06-22T14:01:50.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.dll">
       <PackagePath>MauiApp1.dll</PackagePath>
-      <Modified>2024-06-21T18:58:44.245</Modified>
+      <Modified>2024-06-22T14:14:44.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp1.exe</PackagePath>
-      <Modified>2024-06-21T18:58:44.442</Modified>
+      <Modified>2024-06-22T14:14:44.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:36.134</Modified>
+      <Modified>2024-06-22T13:57:20.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:36.183</Modified>
+      <Modified>2024-06-22T13:57:20.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:36.257</Modified>
+      <Modified>2024-06-22T13:57:20.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:36.371</Modified>
+      <Modified>2024-06-22T13:57:20.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:36.906</Modified>
+      <Modified>2024-06-22T13:57:21.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,211 +83,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-20T14:26:38.125</Modified>
+      <Modified>2024-06-22T13:57:25.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.816</Modified>
+      <Modified>2024-06-22T13:57:27.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.904</Modified>
+      <Modified>2024-06-22T13:57:27.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:40.027</Modified>
+      <Modified>2024-06-22T13:57:27.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:40.182</Modified>
+      <Modified>2024-06-22T13:57:27.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:40.639</Modified>
+      <Modified>2024-06-22T13:57:28.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.770</Modified>
+      <Modified>2024-06-22T13:57:25.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.789</Modified>
+      <Modified>2024-06-22T13:57:25.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.888</Modified>
+      <Modified>2024-06-22T13:57:25.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.808</Modified>
+      <Modified>2024-06-22T13:57:25.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.830</Modified>
+      <Modified>2024-06-22T13:57:25.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.634</Modified>
+      <Modified>2024-06-22T13:57:25.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.655</Modified>
+      <Modified>2024-06-22T13:57:25.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.752</Modified>
+      <Modified>2024-06-22T13:57:25.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.677</Modified>
+      <Modified>2024-06-22T13:57:25.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.698</Modified>
+      <Modified>2024-06-22T13:57:25.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.219</Modified>
+      <Modified>2024-06-22T13:57:25.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.291</Modified>
+      <Modified>2024-06-22T13:57:25.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.337</Modified>
+      <Modified>2024-06-22T13:57:25.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.408</Modified>
+      <Modified>2024-06-22T13:57:25.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.451</Modified>
+      <Modified>2024-06-22T13:57:25.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.481</Modified>
+      <Modified>2024-06-22T13:57:25.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.507</Modified>
+      <Modified>2024-06-22T13:57:25.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.611</Modified>
+      <Modified>2024-06-22T13:57:25.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.528</Modified>
+      <Modified>2024-06-22T13:57:25.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.547</Modified>
+      <Modified>2024-06-22T13:57:25.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.280</Modified>
+      <Modified>2024-06-22T13:57:26.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.322</Modified>
+      <Modified>2024-06-22T13:57:26.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.363</Modified>
+      <Modified>2024-06-22T13:57:26.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.435</Modified>
+      <Modified>2024-06-22T13:57:26.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.511</Modified>
+      <Modified>2024-06-22T13:57:26.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.097</Modified>
+      <Modified>2024-06-22T13:57:26.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.116</Modified>
+      <Modified>2024-06-22T13:57:26.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.159</Modified>
+      <Modified>2024-06-22T13:57:26.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.184</Modified>
+      <Modified>2024-06-22T13:57:26.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.254</Modified>
+      <Modified>2024-06-22T13:57:26.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.923</Modified>
+      <Modified>2024-06-22T13:57:25.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.940</Modified>
+      <Modified>2024-06-22T13:57:25.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.997</Modified>
+      <Modified>2024-06-22T13:57:26.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.019</Modified>
+      <Modified>2024-06-22T13:57:26.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.077</Modified>
+      <Modified>2024-06-22T13:57:26.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.539</Modified>
+      <Modified>2024-06-22T13:57:26.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.571</Modified>
+      <Modified>2024-06-22T13:57:27.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.601</Modified>
+      <Modified>2024-06-22T13:57:27.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.649</Modified>
+      <Modified>2024-06-22T13:57:27.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:39.764</Modified>
+      <Modified>2024-06-22T13:57:27.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.143</Modified>
+      <Modified>2024-06-22T13:57:25.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.173</Modified>
+      <Modified>2024-06-22T13:57:25.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.221</Modified>
+      <Modified>2024-06-22T13:57:25.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.300</Modified>
+      <Modified>2024-06-22T13:57:25.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-20T14:26:38.655</Modified>
+      <Modified>2024-06-22T13:57:25.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\MauiApp1\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp1.deps.json">
       <PackagePath>MauiApp1.deps.json</PackagePath>
-      <Modified>2024-06-21T18:27:55.098</Modified>
+      <Modified>2024-06-22T14:01:50.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -987,7 +987,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\Data\bin\Debug\net8.0\Data.dll">
       <PackagePath>Data.dll</PackagePath>
-      <Modified>2024-06-19T20:23:40.257</Modified>
+      <Modified>2024-06-22T14:07:33.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\damia\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

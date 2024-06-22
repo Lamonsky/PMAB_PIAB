@@ -29,6 +29,9 @@ namespace ClientPortal.Controllers
             cartDetailCreateEditVM.Quantity = 1;
             cartDetailCreateEditVM.ItemsId = itemvm.Id;
             cartDetailCreateEditVM.UnitPrice = itemvm.Price;
+            StockCreateEditVM stockvm = await RequestHelper.SendRequestAsync<object, StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", itemid.ToString()), HttpMethod.Get, null, null);
+            stockvm.Quantity -= 1;
+            await RequestHelper.SendRequestAsync<StockCreateEditVM>(URLs.STOCK_ID.Replace("{id}", stockvm.Id.ToString()), HttpMethod.Put, stockvm, null);
             await RequestHelper.SendRequestAsync<CartDetailCreateEditVM>(URLs.CARTDETAIL, HttpMethod.Post, cartDetailCreateEditVM, null);
             return RedirectToAction("Index", "Home");
         }

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:MauiApp1.ViewModel"
+             x:Class="MauiApp1.MainPage">
+
+    <ContentPage.BindingContext>
+        <vm:MainPageViewModel />
+    </ContentPage.BindingContext>
+
+    
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Text="Logowanie" Command="{Binding GoToLoginCommand}" IsVisible="{Binding IsEmailEmpty.Value}" MaximumWidthRequest="200" HorizontalOptions="Start"/>
+        <StackLayout IsVisible="{Binding IsEmailEmpty.Invert}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Text="Wyloguj" Command="{Binding LogoutCommand}" MaximumWidthRequest="200" HorizontalOptions="Start"/>
+                <Button Grid.Column="1" Text="Zamówienia" Command="{Binding ViewOrdersCommand}" HorizontalOptions="Center"/>
+                <Button Grid.Column="2" Text="Koszyk" Command="{Binding ViewCartCommand}" HorizontalOptions="End"/>
+                <Label Grid.Column="3" Text="{Binding Email}" HorizontalOptions="End"/>
+            </Grid>
+            
+        </StackLayout>
+        
+            
+        <CollectionView Grid.Row="1" ItemsSource="{Binding List}"
+                        SelectedItem="{Binding ChosenCategory}"
+                        SelectionMode="Single">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border StrokeShape="RoundRectangle 5">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ItemTappedCommand}" CommandParameter="{Binding .}" />
+                        </Border.GestureRecognizers>
+                        <Grid MaximumWidthRequest="200" MaximumHeightRequest="300">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Row="0" Source="{Binding ImageURL}"/>
+                            <Button Grid.Row="1" Text="{Binding Name}" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ViewItemsCommand}" CommandParameter="{Binding .}"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

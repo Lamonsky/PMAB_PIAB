@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Data.SelectVMs.CartDetailVM>
+
+@{
+    Context.Request.Cookies.TryGetValue("email", out string email);
+    ViewData["Title"] = "Index";
+}
+
+<h1>Koszyk</h1>
+
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Nazwa
+                    </th>
+                    <th>
+                        Cena
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Items)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)
+                    </td>
+                    <td>
+                        <a class="card-body" asp-area="" asp-controller="ShoppingCart" asp-action="Delete" asp-route-itemid="@item.Id">
+                            <button type="button" class="btn btn-primary">
+                                Usuń
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+        <a class="card-body" asp-area="" asp-controller="Order" asp-action="Index" asp-route-email="@email">
+            <button type="button" class="btn btn-primary">
+                Wyświetl zamówienia
+            </button>
+        </a>
+        <a class="card-body" asp-area="" asp-controller="Order" asp-action="Create" asp-route-email="@email">
+            <button type="button" class="btn btn-primary">
+                Złóż zamówienie
+            </button>
+        </a>
+    </div>
+</div>

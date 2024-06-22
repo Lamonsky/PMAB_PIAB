@@ -9,14 +9,19 @@ namespace Data.CreateEditVMs
 {
     public class CartDetailCreateEditVM
     {
+        [JsonPropertyName("id")]
         public int Id { get; set; }
 
+        [JsonPropertyName("shoppingCardId")]
         public int? ShoppingCardId { get; set; }
 
+        [JsonPropertyName("itemsId")]
         public int? ItemsId { get; set; }
 
+        [JsonPropertyName("quantity")]
         public int? Quantity { get; set; }
 
+        [JsonPropertyName("unitPrice")]
         public decimal? UnitPrice { get; set; }
     }
 }
