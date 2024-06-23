@@ -18,7 +18,7 @@
                     <th>
                         Cena
                     </th>
-                    <th></th>
+                    <th></th><th></th>
                 </tr>
             </thead>
             <tbody>
@@ -31,7 +31,10 @@
                         @Html.DisplayFor(modelItem => item.UnitPrice)
                     </td>
                     <td>
-                        <a class="card-body" asp-area="" asp-controller="ShoppingCart" asp-action="Delete" asp-route-itemid="@item.Id">
+                        @Html.DisplayFor(modelItem => item.ItemId)
+                    </td>
+                    <td>
+                        <a class="card-body" asp-area="" asp-controller="ShoppingCart" asp-action="Delete" asp-route-id="@item.Id" asp-route-itemid="@item.ItemId">
                             <button type="button" class="btn btn-primary">
                                 Usuń
                             </button>

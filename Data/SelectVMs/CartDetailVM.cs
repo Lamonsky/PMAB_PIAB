@@ -18,6 +18,8 @@ namespace Data.SelectVMs
 
         [JsonPropertyName("items")]
         public string? Items { get; set; }
+        [JsonPropertyName("itemId")]
+        public int ItemId { get; set; }
 
         [JsonPropertyName("quantity")]
         public int? Quantity { get; set; }

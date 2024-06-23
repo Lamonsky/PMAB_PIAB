@@ -21,6 +21,7 @@ namespace PMAB_PIAB_RESTAPI.Controllers
                     Id = item.Id,
                     ShoppingCard = item.ShoppingCard.UserId,
                     Items = item.Items.Name,
+                    ItemId = item.Items.Id,
                     Quantity = item.Quantity,
                     UnitPrice = item.UnitPrice
                 }).ToListAsync();
@@ -38,6 +39,7 @@ namespace PMAB_PIAB_RESTAPI.Controllers
                     Id = item.Id,
                     ShoppingCard = item.ShoppingCard.UserId,
                     Items = item.Items.Name + " " + item.Items.Price,
+                    ItemId = item.Items.Id,
                     Quantity = item.Quantity,
                     UnitPrice = item.UnitPrice
                 }).ToListAsync();
