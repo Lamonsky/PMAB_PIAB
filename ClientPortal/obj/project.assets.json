@@ -6321,11 +6321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
+      "projectUniqueName": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
       "projectName": "ClientPortal",
-      "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
+      "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\ClientPortal\\ClientPortal.csproj",
       "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\ClientPortal\\obj\\",
+      "outputPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\ClientPortal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6347,8 +6347,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj"
+            "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
             }
           }
         }

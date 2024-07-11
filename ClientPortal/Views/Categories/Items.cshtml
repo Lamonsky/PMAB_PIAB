@@ -24,9 +24,12 @@
                             @Html.DisplayFor(modelItem => item.Name)
                         </div>
                         <div class="card-body p-4">
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </div>
+                        <div class="card-body p-4">
                             @Html.DisplayFor(modelItem => item.Price)
                         </div>
-                        <a class="card-body" asp-area="" asp-controller="Categories" asp-action="AddToCart" asp-route-itemid="@item.Id.ToString()" asp-route-email="@email"><button type="button" class="btn btn-primary">Dodaj do koszyka</button></a>
+                        <a class="card-body" asp-area="" asp-controller="Categories" asp-action="AddToCart" asp-route-itemid="@item.Id.ToString()" asp-route-email="@email"><button type="button" class="btn btn-primary">  @await Component.InvokeAsync("PageContentViewComponent", new { type = "AddToCartButton" })   </button></a>
                     </a>
                 </div>
             </div>

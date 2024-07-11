@@ -74990,11 +74990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\MauiApp1\\MauiApp1.csproj",
+      "projectUniqueName": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\MauiApp1\\MauiApp1.csproj",
       "projectName": "MauiApp1",
-      "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\MauiApp1\\MauiApp1.csproj",
+      "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\MauiApp1\\MauiApp1.csproj",
       "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\MauiApp1\\obj\\",
+      "outputPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\MauiApp1\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -75020,32 +75020,32 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj"
+            "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
             }
           }
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {
-            "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj"
+            "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
             }
           }
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj"
+            "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
             }
           }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Data\\Data.csproj"
+            "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\Data\\Data.csproj"
             }
           }
         }

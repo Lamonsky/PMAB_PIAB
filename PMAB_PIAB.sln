@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intranet", "Intranet\Intran
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientPortal", "ClientPortal\ClientPortal.csproj", "{5598F2DB-A351-4603-9843-4E16609F9095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp1", "MauiApp1\MauiApp1.csproj", "{855BFC65-9555-4901-B825-086953240675}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp1", "MauiApp1\MauiApp1.csproj", "{855BFC65-9555-4901-B825-086953240675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

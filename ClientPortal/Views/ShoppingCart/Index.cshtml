@@ -5,7 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Koszyk</h1>
+<h1>@await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartHeader" })</h1>
 
 <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -13,10 +13,10 @@
             <thead>
                 <tr>
                     <th>
-                        Nazwa
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartNameHeader" })
                     </th>
                     <th>
-                        Cena
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartPriceHeader" })
                     </th>
                     <th></th><th></th>
                 </tr>
@@ -36,7 +36,7 @@
                     <td>
                         <a class="card-body" asp-area="" asp-controller="ShoppingCart" asp-action="Delete" asp-route-id="@item.Id" asp-route-itemid="@item.ItemId">
                             <button type="button" class="btn btn-primary">
-                                Usuń
+                                    @await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartDeleteHeader" })
                             </button>
                         </a>
                     </td>
@@ -46,12 +46,12 @@
         </table>
         <a class="card-body" asp-area="" asp-controller="Order" asp-action="Index" asp-route-email="@email">
             <button type="button" class="btn btn-primary">
-                Wyświetl zamówienia
+                @await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartShowOrdersHeader" })
             </button>
         </a>
         <a class="card-body" asp-area="" asp-controller="Order" asp-action="Create" asp-route-email="@email">
             <button type="button" class="btn btn-primary">
-                Złóż zamówienie
+                @await Component.InvokeAsync("PageContentViewComponent", new { type = "ShoppingCartCreateOrderHeader" })
             </button>
         </a>
     </div>

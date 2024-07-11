@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Data.SelectVMs.PageContentVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Zawartość strony</h1>
+
+<p>
+    <a class="card-body" asp-action="Create"><button type="button" class="btn btn-primary">Dodaj nowe</button></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                    <a class="card-body" asp-area="" asp-controller="PageContent" asp-action="Edit" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Edytuj</button></a>
+                    <a class="card-body" asp-area="" asp-controller="PageContent" asp-action="Delete" asp-route-id="@item.Id"><button type="button" class="btn btn-primary">Usuń</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

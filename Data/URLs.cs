@@ -26,5 +26,8 @@ namespace Data
         public const string SHOPPINGCART_ID = "/getshoppingcartitem/{id}";
         public const string STOCK = "/getstocklist";
         public const string STOCK_ID = "/getstockitem/{id}";
+        public const string PAGECONTENT = "/pagecontent";
+        public const string PAGECONTENT_ID = "/pagecontent/{id}";
+        public const string PAGECONTENTEDIT_ID = "/pagecontentedit/{id}";
     }
 }

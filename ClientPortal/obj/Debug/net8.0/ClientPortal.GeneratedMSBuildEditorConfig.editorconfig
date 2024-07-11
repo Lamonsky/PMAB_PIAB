@@ -17,55 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClientPortal
 build_property.RootNamespace = ClientPortal
-build_property.ProjectDir = C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\ClientPortal\
+build_property.ProjectDir = C:\Users\damia\Documents\GitHub\PMAB_PIAB\ClientPortal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\damia\source\repos\Lamonsky\PMAB_PIAB\ClientPortal
+build_property.MSBuildProjectDirectory = C:\Users\damia\Documents\GitHub\PMAB_PIAB\ClientPortal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Categories/Items.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Categories/Items.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJdGVtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Home/Index.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Home/AboutUS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Order/Create.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Order/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Order/Index.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Shared/Error.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Shared/Components/PageContentViewComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGFnZUNvbnRlbnRWaWV3Q29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/ShoppingCart/Index.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/User/Login.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/_ViewImports.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/_ViewStart.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/damia/source/repos/Lamonsky/PMAB_PIAB/ClientPortal/Views/Shared/_Layout.cshtml]
+[C:/Users/damia/Documents/GitHub/PMAB_PIAB/ClientPortal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dg14ekv4ur

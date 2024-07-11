@@ -5,7 +5,7 @@
     ViewData["Title"] = "CreateOrder";
 }
 
-<h1>Dodaj nowe zamówienie</h1>
+<h1>@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderHeader" })</h1>
 
 <hr />
 <div class="row">
@@ -13,18 +13,13 @@
         <div class="col-md">
             <form method="post" asp-route-id="@ViewBag.Email" asp-action="Create">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-group">
-                    <label asp-for="UserId" class="control-label">Użytkownik</label>
-                    <input asp-for="UserId" class="form-control text-center" value="@email" readonly/>
-                    <span asp-validation-for="UserId" class="text-danger"></span>
-                </div>
                 <div class="form-group col">
-                    <label asp-for="CreateDate" class="control-label">Data utworzenia</label>
+                    <label asp-for="CreateDate" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderCreateDateHeader" })</label>
                     <input type="date" asp-for="CreateDate" class="form-control text-center"/>
                     <span asp-validation-for="CreateDate" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="OrderStatusId" class="control-label">Status zamówienia</label>
+                    <label asp-for="OrderStatusId" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderStatusHeader" })</label>
                     1.Nowe
                     2.W toku
                     3.Wysłane
@@ -33,39 +28,39 @@
                     <span asp-validation-for="OrderStatusId" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="IsActive" class="control-label">Aktywne</label>
+                    <label asp-for="IsActive" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderActiveHeader" })</label>
                     <input asp-for="IsActive" class="form-control text-center" value="True" readonly />
                     <span asp-validation-for="IsActive" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Name" class="control-label">Nazwa</label>
+                    <label asp-for="Name" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderNameHeader" })</label>
                     <input asp-for="Name" class="form-control text-center" />
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Email" class="control-label">E-Mail</label>
+                    <label asp-for="Email" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderEMailHeader" })</label>
                     <input asp-for="Email" class="form-control text-center" value="@email" readonly/>
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="MobileNumber" class="control-label">Numer telefonu</label>
+                    <label asp-for="MobileNumber" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderPhoneNumberHeader" })</label>
                     <input asp-for="MobileNumber" class="form-control text-center" />
                     <span asp-validation-for="MobileNumber" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Address" class="control-label">Adres</label>
+                    <label asp-for="Address" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderAddressHeader" })</label>
                     <input asp-for="Address" class="form-control text-center" />
                     <span asp-validation-for="Address" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="PaymentMethodId" class="control-label">Sposób płatności</label>
+                    <label asp-for="PaymentMethodId" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderPaymentMethodHeader" })</label>
                     1.Gotówka
                     2.Przelew
                     <input asp-for="PaymentMethodId" class="form-control text-center" />
                     <span asp-validation-for="PaymentMethodId" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="IsPaid" class="control-label">Zapłacone</label>
+                    <label asp-for="IsPaid" class="control-label">@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderNewOrderIsPaidHeader" })</label>
                     <input type="checkbox" name="IsPaid" />
                     <span asp-validation-for="IsPaid" class="text-danger"></span>
                 </div>

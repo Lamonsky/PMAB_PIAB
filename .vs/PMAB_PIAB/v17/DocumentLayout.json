@@ -1,37 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C09D5B81-8182-4AA5-BF85-BE1DCE7B0441}|Intranet\\Intranet.csproj|c:\\users\\damia\\source\\repos\\lamonsky\\pmab_piab\\intranet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C09D5B81-8182-4AA5-BF85-BE1DCE7B0441}|Intranet\\Intranet.csproj|solutionrelative:intranet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\damia\\Documents\\GitHub\\PMAB_PIAB\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 255,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Intranet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Intranet\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\damia\\source\\repos\\Lamonsky\\PMAB_PIAB\\Intranet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Intranet\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAC4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T11:33:06.646Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

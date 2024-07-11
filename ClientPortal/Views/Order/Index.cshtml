@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Zamówienia</h1>
+<h1>@await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderHeader" })</h1>
 
 <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -12,31 +12,31 @@
             <thead>
                 <tr>
                     <th>
-                        Użytkownik
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderUserHeader" })
                     </th>
                     <th>
-                        Data Zamówienia
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderDateHeader" })
                     </th>
                     <th>
-                        Status Zamówienia
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderStatusHeader" })
                     </th>
                     <th>
-                        Imię i nazwisko
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderNameHeader" })
                     </th>
                     <th>
-                        E-Mail
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderEMailHeader" })
                     </th>
                     <th>
-                        Numer telefonu
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderPhoneNumberHeader" })
                     </th>
                     <th>
-                        Adres
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderAddressHeader" })
                     </th>
                     <th>
-                        Sposób płatności
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderPaymentMethodHeader" })
                     </th>
                     <th>
-                        Opłacone
+                        @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderOrderIsPaidHeader" })
                     </th>
                     <th></th>
                 </tr>
@@ -72,7 +72,9 @@
                         @Html.DisplayFor(modelItem => item.IsPaid)
                     </td>
                     <td>
-                        <a class="card-body" asp-area="" asp-controller="Order" asp-action="Paid" asp-route-itemid="@item.Id.ToString()"><button type="button" class="btn btn-primary">Opłać</button></a>
+                        <a class="card-body" asp-area="" asp-controller="Order" asp-action="Paid" asp-route-itemid="@item.Id.ToString()"><button type="button" class="btn btn-primary">
+                                    @await Component.InvokeAsync("PageContentViewComponent", new { type = "OrderPaidButton" })
+                        </button></a>
                     </td>
                 </tr>
         }

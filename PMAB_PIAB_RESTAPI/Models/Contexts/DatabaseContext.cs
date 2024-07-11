@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using PMAB_PIAB_RESTAPI.Models;
+using PMAB_PIAB_RESTAPI.Models.Entities;
 
 namespace PMAB_PIAB_RESTAPI.Models.Contexts;
 
@@ -37,6 +37,8 @@ public partial class DatabaseContext : DbContext
     public virtual DbSet<Order> Orders { get; set; }
 
     public virtual DbSet<OrderStatus> OrderStatuses { get; set; }
+
+    public virtual DbSet<PageContent> PageContents { get; set; }
 
     public virtual DbSet<PaymentMethod> PaymentMethods { get; set; }
 
@@ -78,54 +80,54 @@ public partial class DatabaseContext : DbContext
 
         modelBuilder.Entity<CartDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__CartDeta__3214EC275A6D518D");
+            entity.HasKey(e => e.Id).HasName("PK__CartDeta__3214EC27942E63C2");
 
-            entity.HasOne(d => d.Items).WithMany(p => p.CartDetails).HasConstraintName("FK__CartDetai__Items__49C3F6B7");
+            entity.HasOne(d => d.Items).WithMany(p => p.CartDetails).HasConstraintName("FK__CartDetai__Items__59FA5E80");
 
-            entity.HasOne(d => d.ShoppingCard).WithMany(p => p.CartDetails).HasConstraintName("FK__CartDetai__Shopp__48CFD27E");
+            entity.HasOne(d => d.ShoppingCard).WithMany(p => p.CartDetails).HasConstraintName("FK__CartDetai__Shopp__5AEE82B9");
         });
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Category__3214EC275E7F20D0");
+            entity.HasKey(e => e.Id).HasName("PK__Category__3214EC27A60B3858");
         });
 
         modelBuilder.Entity<Item>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Items__3214EC27A5D2146A");
+            entity.HasKey(e => e.Id).HasName("PK__Items__3214EC277BC9E90E");
 
-            entity.HasOne(d => d.Category).WithMany(p => p.Items).HasConstraintName("FK__Items__CategoryI__398D8EEE");
+            entity.HasOne(d => d.Category).WithMany(p => p.Items).HasConstraintName("FK__Items__CategoryI__5BE2A6F2");
         });
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC279C13DD90");
+            entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC272C41B846");
 
-            entity.HasOne(d => d.OrderStatus).WithMany(p => p.Orders).HasConstraintName("FK__Orders__OrderSta__4316F928");
+            entity.HasOne(d => d.OrderStatus).WithMany(p => p.Orders).HasConstraintName("FK__Orders__OrderSta__5CD6CB2B");
 
-            entity.HasOne(d => d.PaymentMethod).WithMany(p => p.Orders).HasConstraintName("FK__Orders__PaymentM__440B1D61");
+            entity.HasOne(d => d.PaymentMethod).WithMany(p => p.Orders).HasConstraintName("FK__Orders__PaymentM__5DCAEF64");
         });
 
         modelBuilder.Entity<OrderStatus>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__OrderSta__3214EC271D6B3207");
+            entity.HasKey(e => e.Id).HasName("PK__OrderSta__3214EC27643D1C84");
         });
 
         modelBuilder.Entity<PaymentMethod>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__PaymentM__3214EC2791F58E00");
+            entity.HasKey(e => e.Id).HasName("PK__PaymentM__3214EC27F603A070");
         });
 
         modelBuilder.Entity<Shoppingcard>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Shopping__3214EC277998DA52");
+            entity.HasKey(e => e.Id).HasName("PK__Shopping__3214EC27E95F6042");
         });
 
         modelBuilder.Entity<Stock>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Stock__3214EC27F87AF36D");
+            entity.HasKey(e => e.Id).HasName("PK__Stock__3214EC27D97CA2EF");
 
-            entity.HasOne(d => d.Items).WithMany(p => p.Stocks).HasConstraintName("FK__Stock__ItemsID__3C69FB99");
+            entity.HasOne(d => d.Items).WithMany(p => p.Stocks).HasConstraintName("FK__Stock__ItemsID__5EBF139D");
         });
 
         OnModelCreatingPartial(modelBuilder);
